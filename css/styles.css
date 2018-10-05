@@ -1,0 +1,11 @@
+body{
+  background: url(../images/bank.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+.container{
+  background: white;
+  border: 1px solid  #666666;
+  border-radius: 6px;
+  margin-top: 20%;
+}

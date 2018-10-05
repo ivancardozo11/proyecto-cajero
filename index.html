@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+ <html lang="en" dir="ltr">
+ <head>
+           <meta charset="utf-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+           <meta name="http-equiv=X-UA-Compatible" content="ie-edge">
+           <link rel="stylesheet" href="./css/styles.css">
+   <title>CAJERO AUTOMATICO</title>
+ </head>
+           <body>
+  <div class="container">
+    <p class="text-center">
+      Proyecto de prueba que muestra un algoritmo hecho
+      en Javascript cuya funcion es extraer 1000$ en
+      billetes devarias denominaciones y las muestre en pantalla.
+      <br><br>
+      Puede ingresar cualquier numero y el cajero le dira
+      si tiene o no el dinero y en cuantos billetes y de denominacion
+      se los devolverá.
+      <br><br>
+      OJO , PUEDE QUE EL CAJERO ALEATORIAMENTE NO TENGA DINERO.
+  </p>
+    <p>
+      <img src="cajero.gif" class="rounded mx-auto d-block" />
+    </p>
+
+    <p class="text-center">
+      <input type="text" id="dinero" />
+      <input type="button"  value="Extraer" id="extraer" />
+    </p>
+
+    <p id="resultado"></p>
+  </div>
+ <script src="cajero.js"></script>
+           </body>
+ </html>
